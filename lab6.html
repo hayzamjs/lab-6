@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="lab6.js"></script>
+</head>
+<body>
+        <form onsubmit="return validate()">
+          <h1>Customer Name: </h1>
+          <input type="text" id="name" name="name" placeholder="Chad Johnson"/> <span id="name_error"></span>
+          <h1>Order Date: </h1>
+          <input type="text" id="order_date" name="order_date" placeholder="DD/MM/YY"/> <span id="order_error"></span>
+          <h1>Contact Number: </h1>
+          <input type="text" id="phone" name="phone" placeholder="(CC)NNNNNNNNNN"/> <span id="phone_error"></span>
+          <h1>Credit Card Number: </h1>
+          <input type="text" id="creditCardNumber" name="creditCardNumber" placeholder="16-digit Number"/> <span id="credit_card_number_error"></span>
+          <h1>Expiry Date: </h1>
+          <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY"> <span id="expiry_error"></span>
+          <h1>CVV: </h1>
+          <input type="text" id="cvv" name="cvv" placeholder="165"> <span id="cvv_error"></span>
+          <input type="submit" value="submit"/>
+        </form>
+</body>
+</html>
