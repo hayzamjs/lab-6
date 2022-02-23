@@ -42,7 +42,7 @@ function validatePhone(str) {
     deleteError("phone_error");
     regex = /^\([0-9]{2}\)[0-9]{10}$/;
     if(regex.test(str) === false) {
-        displayError("phone_error", "your phone")
+        displayError("phone_error", "your mobile phone number")
         return false;
     }
     return true;
